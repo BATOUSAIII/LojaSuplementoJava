@@ -38,7 +38,7 @@ public class LojaGUI extends JFrame {
     private ArrayList<JLabel> estoqueLabels; // Lista para armazenar os labels de estoque
 
     public LojaGUI() {
-        setTitle("Loja de Suplementos");
+        setTitle("New Way Suplementos");
         setSize(800, 600); // Ajustando tamanho de janela
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Centraliza a janela
@@ -273,3 +273,4 @@ public class LojaGUI extends JFrame {
         });
     }
 }
+
